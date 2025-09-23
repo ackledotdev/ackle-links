@@ -1,5 +1,5 @@
 import { permanentRedirect } from 'next/navigation';
 
 export default function Home() {
-	permanentRedirect('https://ackle.dev');
+	permanentRedirect('https://developer.mozilla.org');
 }
