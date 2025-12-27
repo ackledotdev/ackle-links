@@ -1,5 +1,5 @@
-import { permanentRedirect } from 'next/navigation';
+import { redirect, RedirectType } from 'next/navigation';
 
 export default function Home() {
-	permanentRedirect('https://developer.mozilla.org');
+	redirect('https://developer.mozilla.org', RedirectType.replace);
 }
