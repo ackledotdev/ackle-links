@@ -1,22 +1,25 @@
 {
-  "name": "ackle-links",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "15.5.9",
-    "react": "19.2.1",
-    "react-dom": "19.2.1"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "prettier": "^3.7.4",
-    "typescript": "^5"
-  }
+	"name": "ackle-links",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"up": "ncu -ui",
+		"fmt": "prettier --write ."
+	},
+	"dependencies": {
+		"next": "16.1.1",
+		"react": "19.2.3",
+		"react-dom": "19.2.3"
+	},
+	"devDependencies": {
+		"@types/node": "^25",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"npm-check-updates": "^19.2.0",
+		"prettier": "^3.7.4",
+		"typescript": "^5"
+	}
 }
