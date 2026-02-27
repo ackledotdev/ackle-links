@@ -10,16 +10,16 @@
 		"fmt": "prettier --write ."
 	},
 	"dependencies": {
-		"next": "16.1.1",
-		"react": "19.2.3",
-		"react-dom": "19.2.3"
+		"next": "16.1.6",
+		"react": "19.2.4",
+		"react-dom": "19.2.4"
 	},
 	"devDependencies": {
 		"@types/node": "^25",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
-		"npm-check-updates": "^19.2.0",
-		"prettier": "^3.7.4",
+		"npm-check-updates": "^19.6.3",
+		"prettier": "^3.8.1",
 		"typescript": "^5"
 	}
 }
