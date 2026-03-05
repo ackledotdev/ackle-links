@@ -4,15 +4,15 @@ export const Redirects: Record<string, { url: string; permanent: boolean }> = {
 		permanent: false
 	},
 	'': {
-		url: 'https://developer.mozilla.org/',
+		url: 'https://ackle.dev/',
 		permanent: false
 	},
 	pronouns: {
 		url: 'https://en.pronouns.page/@equus_quagga',
-		permanent: false
+		permanent: true
 	},
 	pnpage: {
 		url: 'https://en.pronouns.page/@equus_quagga',
-		permanent: false
+		permanent: true
 	}
 };
